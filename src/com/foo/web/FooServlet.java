@@ -14,9 +14,9 @@ public class FooServlet extends HttpServlet {
   
     private static final long serialVersionUID = 4L;
 
-    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
-	{
-      ServletOutputStream out = resp.getOutputStream();
-      out.print("It works!!");
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException 
+    { 
+        ServletOutputStream out = resp.getOutputStream();
+        out.print("It works!!");
 	}
 }
