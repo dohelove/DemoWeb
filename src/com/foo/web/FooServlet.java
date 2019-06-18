@@ -11,11 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet( urlPatterns = "/foo")
 public class FooServlet extends HttpServlet {
+  
+    private static final long serialVersionUID = 4L;
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException
+    public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
 	{
-	      ServletOutputStream out = resp.getOutputStream();
-	      out.print("It works!!");
+      ServletOutputStream out = resp.getOutputStream();
+      out.print("It works!!");
 	}
 }
