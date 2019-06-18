@@ -4,24 +4,24 @@
   <display-name>DemoWeb</display-name>
   
   <servlet>
-	  <servlet-name>bar-name</servlet-name>
-	  <servlet-class>com.foo.web.BarServlet</servlet-class>
+    <servlet-name>bar-name</servlet-name>
+    <servlet-class>com.foo.web.BarServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>bar-name</servlet-name>
-	<url-pattern>/bar</url-pattern>
+    <url-pattern>/bar</url-pattern>
   </servlet-mapping>
   
   
   <servlet>
-	  <servlet-name>wat-name</servlet-name>
-	  <servlet-class>com.foo.web.WatServlet</servlet-class>
+    <servlet-name>wat-name</servlet-name>
+    <servlet-class>com.foo.web.WatServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>wat-name</servlet-name>
-	<url-pattern>/wat</url-pattern>
+    <url-pattern>/wat</url-pattern>
   </servlet-mapping>
   
 </web-app>
